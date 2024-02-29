@@ -3,11 +3,11 @@ import pandas as pd
 import numpy as np
 import os
 import sys
-from src.InsurancePrediction.logger import logging
-from src.InsurancePrediction.exception import customexception
+from src.logger import logging
+from src.exception import customexception
 from dataclasses import dataclass
-from src.InsurancePrediction.utils.utils import save_object
-from src.InsurancePrediction.utils.utils import evaluate_model
+from src.utils.utils import save_object
+from src.utils.utils import evaluate_model
 
 from sklearn.linear_model import LinearRegression, Ridge,Lasso,ElasticNet
 

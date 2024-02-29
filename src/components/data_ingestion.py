@@ -1,8 +1,8 @@
 
 import pandas as pd
 import numpy as np
-from src.InsurancePrediction.logger import logging
-from src.InsurancePrediction.exception import customexception
+from src.logger import logging
+from src.exception import customexception
 
 import os
 import sys

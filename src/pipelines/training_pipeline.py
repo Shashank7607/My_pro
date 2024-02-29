@@ -1,16 +1,16 @@
-from src.InsurancePrediction.components.data_ingestion import DataIngestion
+from src.components.data_ingestion import DataIngestion
 
-from src.InsurancePrediction.components.data_transformation import DataTransformation
+from src.components.data_transformation import DataTransformation
 
-from src.InsurancePrediction.components.model_trainer import ModelTrainer
+from src.components.model_trainer import ModelTrainer
 
-from src.InsurancePrediction.components.model_evalution import ModelEvaluation
+from src.components.model_evaluation import ModelEvaluation
 
 
 import os
 import sys
-from src.InsurancePrediction.logger import logging
-from src.InsurancePrediction.exception import customexception
+from src.logger import logging
+from src.exception import customexception
 import pandas as pd
 class TrainingPipeline:
     def start_data_ingestion(self):
