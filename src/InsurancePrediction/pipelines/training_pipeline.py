@@ -4,7 +4,7 @@ from src.InsurancePrediction.components.data_transformation import DataTransform
 
 from src.InsurancePrediction.components.model_trainer import ModelTrainer
 
-from src.InsurancePrediction.components.model_evaluation import ModelEvaluation
+from src.InsurancePrediction.components.model_evalution import ModelEvaluation
 
 
 import os
